@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dccpl\\Downloads\\MaintManagement 1\\MaintManagement\\MaintManagement\\MaintManagement.csproj": {}
+    "C:\\CMMS-Git\\MaintManagement\\MaintManagement.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dccpl\\Downloads\\MaintManagement 1\\MaintManagement\\MaintManagement\\MaintManagement.csproj": {
+    "C:\\CMMS-Git\\MaintManagement\\MaintManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dccpl\\Downloads\\MaintManagement 1\\MaintManagement\\MaintManagement\\MaintManagement.csproj",
+        "projectUniqueName": "C:\\CMMS-Git\\MaintManagement\\MaintManagement.csproj",
         "projectName": "MaintManagement",
-        "projectPath": "C:\\Users\\dccpl\\Downloads\\MaintManagement 1\\MaintManagement\\MaintManagement\\MaintManagement.csproj",
+        "projectPath": "C:\\CMMS-Git\\MaintManagement\\MaintManagement.csproj",
         "packagesPath": "C:\\Users\\dccpl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dccpl\\Downloads\\MaintManagement 1\\MaintManagement\\MaintManagement\\obj\\",
+        "outputPath": "C:\\CMMS-Git\\MaintManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dccpl\\AppData\\Roaming\\NuGet\\NuGet.Config",
