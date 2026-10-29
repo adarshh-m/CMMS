@@ -27,7 +27,7 @@ namespace YourNamespace.Controllers
         }
 
         [EnableQuery]
-        public async Task<IActionResult> Get([FromBody] Guid key)
+        public async Task<IActionResult> Get( Guid key)
         {
             var apiClient = await _context.Set<ApiClient>().FindAsync(key);
             if (apiClient == null)
