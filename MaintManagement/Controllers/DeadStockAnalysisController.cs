@@ -27,7 +27,7 @@ namespace YourNamespace.Controllers
         }
 
         [EnableQuery]
-        public async Task<IActionResult> Get([FromBody] Guid key)
+        public async Task<IActionResult> Get( Guid key)
         {
             var entity = await _context.Set<DeadStockAnalysis>().FindAsync(key);
             if (entity == null)
@@ -39,8 +39,8 @@ namespace YourNamespace.Controllers
 
         public async Task<IActionResult> Post([FromBody] DeadStockAnalysis deadStockAnalysis)
         {
-           
 
+            deadStockAnalysis.DeadStockAnalysisId= Guid.NewGuid();
             _context.Set<DeadStockAnalysis>().Add(deadStockAnalysis);
             await _context.SaveChangesAsync();
 
